@@ -1,0 +1,97 @@
+/* Global Styles */
+body {
+  background-color: #1c1c1c !important; /* Dark background with a charcoal tone */
+  color: #eaeaea !important; /* Light gray text for high contrast */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Centered Layout */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Box Style (Form & Student List) */
+.box-container {
+  width: 320px; /* Shortened the box width */
+  padding: 25px;
+  background: linear-gradient(135deg, #4e4e4e, #2c2c2c); /* Gradient background for depth */
+  border-radius: 15px; /* Slightly more rounded corners */
+  margin: 20px 0 30px 0; /* Margin added at the bottom to create spacing */
+  border: 2px solid #3c3c3c; /* Darker border */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth */
+}
+
+/* Heading */
+h1, h2 {
+  color: #ff5722 !important; /* Warm orange for a fresh pop */
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px; /* Added letter-spacing for a more stylish look */
+}
+
+/* Form Fields */
+.input-field, .dropdown {
+  width: 70%; /* Ensure both have the same width */
+  padding: 12px;
+  margin: 12px 0;
+  border: 2px solid #444; /* Slight border for input fields */
+  border-radius: 6px;
+  background: #3e3e3e; /* Dark gray background for inputs */
+  color: #f1f1f1; /* Light text inside inputs */
+  font-size: 16px;
+}
+
+/* Button Styling */
+.submit-button, .delete-button {
+  width: 50%; /* Set width to 50% for a shorter button */
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px auto; /* Center button and add space around it */
+}
+
+/* Submit Button */
+.submit-button {
+  background: #00796b; /* Teal green color */
+  color: white;
+  border-radius: 8px; /* Rounded button edges */
+}
+
+/* Student List */
+.list-container {
+  width: 320px; /* Shortened the box width to match */
+  padding: 25px;
+  background: linear-gradient(135deg, #4e4e4e, #2c2c2c); /* Same gradient background as box */
+  border-radius: 15px; /* Matching rounded corners */
+  border: 2px solid #3c3c3c;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth */
+  margin-top: 20px; /* Added top margin to create spacing from the form */
+}
+
+/* Student Items */
+.student-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #484848; /* Medium gray for student list items */
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 6px;
+}
+
+/* Delete Button */
+.delete-button {
+  background: #d32f2f; /* Bright red for delete */
+  color: white;
+  border-radius: 8px;
+}
